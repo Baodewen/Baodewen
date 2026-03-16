@@ -51,7 +51,4 @@
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Baodewen&layout=compact&border_color=d0d7de&text_color=24292f&title_color=0969da&bg_color=ffffff" alt="Top Languages" />
 </p>
 
-## Contact
-
-For project-specific discussion, the cleanest path is to open an issue or discussion in the relevant repository.
 
