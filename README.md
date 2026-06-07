@@ -1,54 +1,180 @@
 <div align="center">
-  <h1>Baodewen</h1>
-  <p><strong>Reinforcement Learning | Control | Spatio-Temporal Modeling</strong></p>
-  <p>Research-oriented engineering with an emphasis on clarity, correctness, and reproducibility.</p>
-  <p>
-    <a href="https://github.com/Baodewen"><img src="https://img.shields.io/badge/Profile-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub Profile" /></a>
-    <a href="https://github.com/Baodewen?tab=repositories"><img src="https://img.shields.io/badge/Projects-Open%20Repositories-0969DA?style=for-the-badge" alt="Repositories" /></a>
-    <a href="https://github.com/Baodewen?tab=followers"><img src="https://img.shields.io/github/followers/Baodewen?style=for-the-badge&logo=github&label=Followers" alt="Followers" /></a>
-  </p>
-  <p>
-    <img src="https://img.shields.io/badge/Python-Primary-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-    <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-    <img src="https://img.shields.io/badge/RL-Decision%20Making-2EA44F?style=flat-square" alt="Reinforcement Learning" />
-    <img src="https://img.shields.io/badge/Control-Safety%20Aware-8250DF?style=flat-square" alt="Control" />
-    <img src="https://img.shields.io/badge/Time%20Series-Spatio--Temporal-BD561D?style=flat-square" alt="Time Series" />
-  </p>
+
+<h1>Baodewen</h1>
+
+<p>
+  <strong>Reinforcement Learning · Robot Navigation · Safe Control</strong>
+</p>
+
+<p>
+  Research-oriented engineering for path planning, learning-based decision-making, and safety-aware robotic control.
+</p>
+
+<p>
+  <a href="https://github.com/Baodewen">
+    <img src="https://img.shields.io/badge/GitHub-Baodewen-181717?style=for-the-badge&logo=github" alt="GitHub Profile" />
+  </a>
+  <a href="https://github.com/Baodewen?tab=repositories">
+    <img src="https://img.shields.io/badge/Repositories-Research%20Projects-0969DA?style=for-the-badge" alt="Repositories" />
+  </a>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Python-Primary-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/PPO-Reinforcement%20Learning-2EA44F?style=flat-square" alt="PPO" />
+  <img src="https://img.shields.io/badge/D*%20Lite-Path%20Replanning-1F6FEB?style=flat-square" alt="D* Lite" />
+  <img src="https://img.shields.io/badge/PID-Safety%20Aware%20Control-8250DF?style=flat-square" alt="PID Control" />
+  <img src="https://img.shields.io/badge/FastAPI-Robot%20Workbench-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+</p>
+
 </div>
 
-## At a Glance
+---
+
+## About
+
+I focus on building small but complete research-oriented systems for robotic navigation and control.
+
+My current work connects three ideas:
 
 <table>
   <tr>
-    <td width="33%"><strong>Research Direction</strong><br/>Reinforcement learning for robotics and control, with attention to constrained decision-making.</td>
-    <td width="33%"><strong>Engineering Style</strong><br/>Readable code, reproducible experiments, and practical project cleanup instead of one-off demos.</td>
-    <td width="33%"><strong>Current Theme</strong><br/>Connecting RL, PID modulation, and spatio-temporal forecasting workflows in modern Python stacks.</td>
+    <td width="33%">
+      <strong>Incremental Replanning</strong><br/>
+      Repairing paths efficiently when local edge states or obstacle information change.
+    </td>
+    <td width="33%">
+      <strong>Learning-Based Navigation</strong><br/>
+      Using reinforcement learning to study state design, reward shaping, policy behavior, and navigation robustness.
+    </td>
+    <td width="33%">
+      <strong>Safety-Aware Control</strong><br/>
+      Combining learned decision modules with explicit safety guards and interpretable control logic.
+    </td>
   </tr>
 </table>
 
-## Quick Access
+---
+
+## Featured Projects
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>Visibility-Constrained Edge-State D* Lite Replanning</h3>
+      <p>
+        A grid-based incremental replanning method for near-obstacle navigation, built around visibility constraints, edge-state updates, and D* Lite-style path repair.
+      </p>
+      <p>
+        <strong>Focus</strong><br/>
+        Path planning · Incremental search · Local visibility · Dynamic edge states
+      </p>
+      <p>
+        <a href="https://github.com/Baodewen/Visibility-Constrained-Edge-State-D-Lite-Replanning">
+          <img src="https://img.shields.io/badge/Open-Repository-0969DA?style=flat-square" alt="Open Repository" />
+        </a>
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>Safety-Guarded RL-Modulated PID Control</h3>
+      <p>
+        A safety-aware control prototype where reinforcement learning modulates PID behavior instead of directly replacing the controller.
+      </p>
+      <p>
+        <strong>Focus</strong><br/>
+        PPO · PID modulation · Safety guard · Corridor navigation
+      </p>
+      <p>
+        <a href="https://github.com/Baodewen/Safety-Guarded-RL-Modulated-PID-Control">
+          <img src="https://img.shields.io/badge/Open-Repository-2EA44F?style=flat-square" alt="Open Repository" />
+        </a>
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>RL-Based Robot Obstacle Avoidance</h3>
+      <p>
+        A complete reinforcement learning navigation workbench covering map generation, LiDAR-style sensing, PPO training, evaluation, visualization, and a Web console.
+      </p>
+      <p>
+        <strong>Focus</strong><br/>
+        Mobile robot · LiDAR observation · PPO · Pygame · FastAPI
+      </p>
+      <p>
+        <a href="https://github.com/Baodewen/Reinforcement-Learning-Based-Robot-Obstacle-Avoidance">
+          <img src="https://img.shields.io/badge/Open-Repository-BE4BDB?style=flat-square" alt="Open Repository" />
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Research Style
+
+<table>
+  <tr>
+    <td width="25%">
+      <strong>Clear Problem Formulation</strong><br/>
+      I prefer projects with explicit states, actions, constraints, and evaluation logic.
+    </td>
+    <td width="25%">
+      <strong>Algorithm-Centered Design</strong><br/>
+      The core method should remain visible instead of being hidden behind unnecessary interface complexity.
+    </td>
+    <td width="25%">
+      <strong>Reproducible Workflow</strong><br/>
+      Training, evaluation, visualization, and quick-start scripts should form a complete loop.
+    </td>
+    <td width="25%">
+      <strong>Safety-Oriented Thinking</strong><br/>
+      I am interested in methods where learned behavior is constrained by interpretable safety rules.
+    </td>
+  </tr>
+</table>
+
+---
+
+## Technical Stack
 
 <p>
-  <a href="https://github.com/Baodewen/PaperBanana_fixed"><img src="https://img.shields.io/badge/PaperBanana_fixed-Most%20Starred-0A7EA4?style=flat-square" alt="PaperBanana_fixed" /></a>
-  <a href="https://github.com/Baodewen/sttn-pytorch-migration"><img src="https://img.shields.io/badge/sttn--pytorch--migration-Spatio--Temporal-1F6FEB?style=flat-square" alt="sttn-pytorch-migration" /></a>
-  <a href="https://github.com/Baodewen/Safety-Guarded-RL-Modulated-PID-Control"><img src="https://img.shields.io/badge/Safety--Guarded--RL--Modulated--PID--Control-Control%20Research-2DA44E?style=flat-square" alt="Safety-Guarded-RL-Modulated-PID-Control" /></a>
-  <a href="https://github.com/Baodewen/Reinforcement-Learning-Based-Robot-Obstacle-Avoidance"><img src="https://img.shields.io/badge/Robot%20Obstacle%20Avoidance-RL%20Robotics-BE4BDB?style=flat-square" alt="Robot Obstacle Avoidance" /></a>
+  <img src="https://img.shields.io/badge/Language-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Deep%20Learning-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/RL-PPO%20%7C%20Gymnasium-2EA44F?style=flat-square" alt="PPO Gymnasium" />
+  <img src="https://img.shields.io/badge/Planning-D*%20Lite%20%7C%20Grid%20Search-1F6FEB?style=flat-square" alt="Path Planning" />
+  <img src="https://img.shields.io/badge/Control-PID%20%7C%20Safety%20Guard-8250DF?style=flat-square" alt="Control" />
+  <img src="https://img.shields.io/badge/Visualization-Pygame%20%7C%20HTML-BD561D?style=flat-square" alt="Visualization" />
+  <img src="https://img.shields.io/badge/Web-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Tools-Git%20%7C%20Markdown-181717?style=flat-square&logo=git&logoColor=white" alt="Git Markdown" />
 </p>
 
-## Selected Projects
+---
 
-| Project | Focus | Stack | Link |
-| --- | --- | --- | --- |
-| `PaperBanana_fixed` | Improved an existing research codebase for smoother personal use and more reliable execution. | Python | [Open](https://github.com/Baodewen/PaperBanana_fixed) |
-| `sttn-pytorch-migration` | Migration and engineering cleanup around spatio-temporal transformer forecasting in PyTorch. | Python | [Open](https://github.com/Baodewen/sttn-pytorch-migration) |
-| `Reinforcement-Learning-Based-Robot-Obstacle-Avoidance` | Reinforcement learning experiments for robot obstacle avoidance. | Python | [Open](https://github.com/Baodewen/Reinforcement-Learning-Based-Robot-Obstacle-Avoidance) |
-| `Safety-Guarded-RL-Modulated-PID-Control` | Explores RL-modulated PID control under safety constraints. | Python | [Open](https://github.com/Baodewen/Safety-Guarded-RL-Modulated-PID-Control) |
+## Project Map
 
-## Snapshot
+```text
+Robot Navigation and Safe Control
+│
+├── Visibility-Constrained Edge-State D* Lite Replanning
+│   └── incremental path repair under changing local edge states
+│
+├── RL-Based Robot Obstacle Avoidance
+│   └── learning-based navigation with sensing, training, evaluation, and visualization
+│
+└── Safety-Guarded RL-Modulated PID Control
+    └── reinforcement learning as a high-level modulation layer over safe PID control
+```
+
+---
+
+## GitHub Snapshot
+
+<div align="center">
 
 <p>
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=Baodewen&show_icons=true&hide_title=true&border_color=d0d7de&icon_color=0969da&text_color=24292f&title_color=0969da&bg_color=ffffff" alt="GitHub Stats" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Baodewen&layout=compact&border_color=d0d7de&text_color=24292f&title_color=0969da&bg_color=ffffff" alt="Top Languages" />
 </p>
 
-
+</div>
