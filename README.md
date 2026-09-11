@@ -1,25 +1,4 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Baodewen · README Preview</title>
-<style>
-:root{color-scheme:light;--bg:#f6f8fa;--surface:#fff;--text:#1f2328;--muted:#656d76;--line:#d1d9e0;--stripe:#f6f8fa;--link:#0969da;--code:#818b981f}
-[data-theme="dark"]{color-scheme:dark;--bg:#010409;--surface:#0d1117;--text:#e6edf3;--muted:#9198a1;--line:#30363d;--stripe:#161b22;--link:#58a6ff;--code:#6e768166}
-*{box-sizing:border-box}body{margin:0;padding:28px 22px 48px;background:var(--bg);color:var(--text);font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
-.preview-bar{max-width:1012px;margin:0 auto 16px;display:flex;gap:16px;align-items:center;justify-content:space-between;font-size:12px;color:var(--muted)}
-.preview-bar button{padding:6px 12px;margin-left:6px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--text);cursor:pointer}
-.markdown-body{max-width:1012px;margin:auto;padding:32px;background:var(--surface);border:1px solid var(--line);border-radius:6px;overflow-wrap:break-word}
-.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}
-p,blockquote,table{margin-top:0;margin-bottom:16px}a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}
-h1{font-size:34px;line-height:1.25;margin:16px 0;font-weight:600}h2{font-size:24px;line-height:1.25;margin:24px 0 16px;padding-bottom:.3em;border-bottom:1px solid var(--line);font-weight:600}
-h3{font-size:20px;line-height:1.25;font-weight:600;margin:24px 0 16px}
-blockquote{padding:0 1em;color:var(--muted);border-left:.25em solid var(--line)}blockquote p:last-child{margin-bottom:0}
-code{padding:.2em .4em;margin:0;font-size:85%;white-space:break-spaces;background:var(--code);border-radius:6px;font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
-table{border-spacing:0;border-collapse:collapse;display:block;width:max-content;max-width:100%;overflow:auto}table th{font-weight:600}table th,table td{padding:6px 13px;border:1px solid var(--line)}table tr{background:var(--surface)}table tr:nth-child(2n){background:var(--stripe)}
-table td>:last-child{margin-bottom:0}table td img{display:inline-block}img{max-width:100%;height:auto;vertical-align:middle}sub{font-size:75%;line-height:0;position:relative;vertical-align:baseline;bottom:-.25em}
-hr{height:.25em;padding:0;margin:24px 0;background:var(--line);border:0}strong{font-weight:600}
-@media(max-width:600px){body{padding:12px 8px}.markdown-body{padding:16px}.preview-bar{align-items:flex-start}.preview-bar span{max-width:210px}.preview-bar button{padding:5px 8px}}
-</style></head><body>
-<div class="preview-bar"><span>LOCAL README PREVIEW · GitHub-style layout approximation</span><div><button type="button" onclick="document.documentElement.dataset.theme='light'">Light</button><button type="button" onclick="document.documentElement.dataset.theme='dark'">Dark</button></div></div>
-<main class="markdown-body"><div align="center">
+<div align="center">
   <h1>Baodewen</h1>
   <p><strong>Reinforcement Learning · Robot Navigation · Safe Control</strong></p>
   <p>Exploring how robots plan, learn, and act under safety constraints.</p>
@@ -37,7 +16,7 @@ hr{height:.25em;padding:0;margin:24px 0;background:var(--line);border:0}strong{f
 
 <hr/>
 
-<h2 id="about">About</h2>
+<h2>About</h2>
 
 <p>
   I build research-oriented systems for <strong>robot navigation and control</strong>,
@@ -76,7 +55,7 @@ hr{height:.25em;padding:0;margin:24px 0;background:var(--line);border:0}strong{f
   </tr>
 </table>
 
-<h2 id="honors--awards">Honors &amp; Awards</h2>
+<h2>Honors &amp; Awards</h2>
 
 <blockquote>
   <p><strong>KAGGLE · SILVER MEDAL</strong></p>
@@ -120,7 +99,7 @@ hr{height:.25em;padding:0;margin:24px 0;background:var(--line);border:0}strong{f
   </tbody>
 </table>
 
-<h2 id="featured-projects">Featured Projects</h2>
+<h2>Featured Projects</h2>
 
 <table>
   <tr>
@@ -164,4 +143,3 @@ hr{height:.25em;padding:0;margin:24px 0;background:var(--line);border:0}strong{f
     <a href="https://github.com/Baodewen?tab=repositories">All Repositories →</a>
   </p>
 </div>
-</main></body></html>
